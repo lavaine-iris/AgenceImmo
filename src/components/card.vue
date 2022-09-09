@@ -62,7 +62,10 @@ import bed from "./icones/bed.vue";
 import superficie from "./icones/superficie.vue";
 
 defineProps({
-    nom: String,
+    nom: {
+        String,
+        default: "Maison"
+    },
     price: {
         type: Number,
         default: 2700,

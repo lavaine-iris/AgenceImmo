@@ -13,8 +13,14 @@
       </li>
       <li>
         <router-link class="text-red-600 underline" to="/simple">
-          lien vers
+          lien vers page simple
           <code class="font-mono">/src/pages/simple.vue</code>
+        </router-link>
+      </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/liste">
+          lien vers page liste
+          <code class="font-mono">/src/pages/liste.vue</code>
         </router-link>
       </li>
     </ul>

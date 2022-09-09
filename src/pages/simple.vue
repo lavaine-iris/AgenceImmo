@@ -8,6 +8,6 @@
 
 import card from "../components/card.vue";
 
-const objet = { nom: "maison avec vue sur mer", price: 1350 }
+const objet = { nom: "Maison avec vue sur mer", price: 1350, image: "/public/house6.png" }
 
 </script>
