@@ -6,27 +6,23 @@
     </h4>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="/">
-          lien vers
-          <code class="font-mono">/src/pages/index.vue</code>
+        <router-link class="text-red-600 underline font-mono" to="/">
+          Accueil
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline" to="/simple">
-          lien vers page simple
-          <code class="font-mono">/src/pages/simple.vue</code>
+        <router-link class="text-red-600 underline font-mono" to="/simple">
+          Page simple
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline" to="/liste">
-          lien vers page liste
-          <code class="font-mono">/src/pages/liste.vue</code>
+        <router-link class="text-red-600 underline font-mono" to="/liste">
+          Liste
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline" to="/liste-fetch">
-          lien vers page liste fetch
-          <code class="font-mono">/src/pages/liste-fetch.vue</code>
+        <router-link class="text-red-600 underline font-mono" to="/liste-fetch">
+          Liste Fetch
         </router-link>
       </li>
     </ul>
@@ -34,10 +30,10 @@
 
   <Suspense>
     <router-view class="m-2 border-2 p-2" />
+    <template #fallback> Loading... </template>
   </Suspense>
 
   <!-- Affiche les pages -->
-  <router-view class="m-2 border-2 p-2" />
 </template>
 
 <script setup lang="ts">
