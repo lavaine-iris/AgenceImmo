@@ -1,32 +1,31 @@
 <template>
-  <nav>
+  <nav class="p-5">
     <h4 class="text-xl">
-      <Bars3Icon class="inline-block h-5 w-5 text-blue-500" />
-      menu (dans <code class="font-mono">/src/App.vue</code>)
+      <Bars3Icon class="inline-block h-5 w-5 text-blue-800" />
     </h4>
     <ul>
       <li>
-        <router-link class="text-red-600 underline font-mono" to="/">
+        <router-link class="text-gray-600 font-medium" to="/">
           Accueil
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline font-mono" to="/simple">
+        <router-link class="text-gray-600 font-medium" to="/simple">
           Page simple
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline font-mono" to="/liste">
+        <router-link class="text-gray-600 font-medium" to="/liste">
           Liste
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline font-mono" to="/liste-fetch">
+        <router-link class="text-gray-600 font-medium" to="/liste-fetch">
           Liste Fetch
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline font-mono" to="/edit/new">
+        <router-link class="text-gray-600 font-medium" to="/edit/new">
           Formulaire Offre Maison
         </router-link>
       </li>
