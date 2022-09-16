@@ -1,6 +1,6 @@
 <template>
     <div v-for="maison in maisons" :key="maisons.nom">
-        <card class="w-1/2 p-2" v-bind="maisons" />
+        <card class="w-1/2 p-5" v-bind="maisons" />
     </div>
 </template>
 

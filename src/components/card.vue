@@ -28,7 +28,8 @@
               rounded-full
               border-2 border-indigo-100
             ">
-                    <HeartIcon class="h-6 stroke-indigo-500 hover:fill-indigo-500"></HeartIcon>
+                    <HeartIcon class="h-6 stroke-indigo-500">{{ favori }}</HeartIcon>
+
                 </div>
             </div>
             <p class="text-base font-normal text-gray-900">
@@ -76,7 +77,11 @@ defineProps({
     },
     image: {
         type: String,
-        default: "home.png"
+        default: "/public/house3.png"
+    },
+    favori: {
+        type: Boolean,
+        default: false,
     },
 
 });

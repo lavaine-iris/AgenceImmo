@@ -1,6 +1,6 @@
 <template>
 
-    <card class="w-1/2" v-bind="objet" />
+    <card class="w-1/2 p-5" v-bind="objet" />
 
 </template>
 
