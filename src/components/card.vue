@@ -39,17 +39,17 @@
             <div class="flex justify-between">
                 <div class="flex items-center gap-2">
                     <bed class="h-5 stroke-indigo-500"></bed>
-                    <span class="text-xs text-gray-500">4 Beds</span>
+                    <span class="text-xs text-gray-500"> {{ nbrChambres }}</span>
                 </div>
                 <div class="flex items-center gap-2">
                     <bath class="h-5 stroke-indigo-500"></bath>
                     <span class="text-xs text-gray-500">
-                        <slot>2 Bathrooms</slot>
+                        <slot> {{ nbrSDB }} </slot>
                     </span>
                 </div>
                 <div class="flex items-center gap-2">
                     <superficie class="h-5 stroke-indigo-500"></superficie>
-                    <span class="text-xs text-gray-500">6x7.5 m²</span>
+                    <span class="text-xs text-gray-500"> {{ surface }} </span>
                 </div>
             </div>
         </figcaption>
@@ -82,6 +82,18 @@ defineProps({
     favori: {
         type: Boolean,
         default: false,
+    },
+    nbrChambres: {
+        type: String,
+        default: "4 Bedrooms",
+    },
+    nbrSDB: {
+        type: String,
+        default: "2 Bathrooms",
+    },
+    surface: {
+        type: String,
+        default: "6x7.5 m",
     },
 
 });
