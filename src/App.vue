@@ -29,6 +29,11 @@
           Formulaire Offre Maison
         </router-link>
       </li>
+      <li>
+        <router-link class="text-gray-600 font-medium" to="/liste-supabase">
+          Liste SUPABASE
+        </router-link>
+      </li>
     </ul>
   </nav>
 
