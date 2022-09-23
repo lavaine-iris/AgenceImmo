@@ -7,14 +7,14 @@
     },
     {
         "nom": "maisonsJSON",
-        "price": 680,
+        "price": 900,
         "adresse": "821 Lake Sevilla, Palm Harbor, TX",
-        "image": "house4.png"
+        "image": "house2.png"
     },
     {
         "nom": "maisonsJSON",
-        "price": 680,
+        "price": 500,
         "adresse": "821 Lake Sevilla, Palm Harbor, TX",
-        "image": "house4.png"
+        "image": "house3.png"
     }
 ]
