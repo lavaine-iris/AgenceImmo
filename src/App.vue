@@ -34,6 +34,11 @@
           Liste SUPABASE
         </router-link>
       </li>
+      <li>
+        <router-link class="text-gray-600 font-medium" to="/login-logout">
+          Créer un compte / Se connecter
+        </router-link>
+      </li>
     </ul>
   </nav>
 
