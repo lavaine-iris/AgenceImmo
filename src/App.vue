@@ -39,6 +39,11 @@
           Créer un compte / Se connecter
         </router-link>
       </li>
+      <li>
+        <router-link class="text-gray-600 font-medium" to="/edit/[id]">
+          Edit
+        </router-link>
+      </li>
     </ul>
   </nav>
 

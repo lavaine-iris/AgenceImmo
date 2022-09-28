@@ -13,9 +13,6 @@
     
     console.log("Maison:", Maison);
 
- 
-
-    
 </script>
     
 <template>
