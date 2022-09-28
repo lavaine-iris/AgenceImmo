@@ -47,6 +47,8 @@ async function upsertMaison(dataForm, node) {
                 <FormKit name="adresse" label="Adresse"/>
                 <FormKit name="nbrSDB" label="Nombre de salle de bains" type="number"/>
                 <FormKit name="nbrChambres" label="Nombre de chambres" type="number"/>
+                <FormKit name="surface" label="Superficie" />
+                <FormKit name="image" label="Image" />
             </FormKit>
         </div>
     </div>
