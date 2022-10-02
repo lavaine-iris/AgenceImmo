@@ -44,6 +44,11 @@
           Edit
         </router-link>
       </li>
+      <li>
+        <router-link class="text-gray-600 font-medium" to="/quartier">
+          Liste Simple
+        </router-link>
+      </li>
     </ul>
   </nav>
 
