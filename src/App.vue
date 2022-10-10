@@ -46,7 +46,7 @@
       </li>
       <li>
         <router-link class="text-gray-600 font-medium" to="/quartier">
-          Liste Simple
+          Liste Simple des quartiers
         </router-link>
       </li>
     </ul>
